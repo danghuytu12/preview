@@ -6,15 +6,16 @@ var ExampleComponent = function ExampleComponent() {
   return createElement("div", {
     className: styles.gridContainer
   }, createElement("a", {
-    href: '/fasdfsd',
+    href: 'https://www.facebook.com/',
     className: 'item1'
-  }, "ds"), createElement("div", {
+  }, "ds"), createElement("a", {
+    href: 'https://www.facebook.com/',
     className: 'item2'
-  }, "2"), createElement("div", {
+  }, "2"), createElement("a", {
     className: 'item3'
-  }, "3"), createElement("div", {
+  }, "3"), createElement("a", {
     className: 'item4'
-  }, "4"), createElement("div", {
+  }, "4"), createElement("a", {
     className: 'item5'
   }, "5"));
 };
