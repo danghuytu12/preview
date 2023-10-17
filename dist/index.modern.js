@@ -1,13 +1,14 @@
 import { createElement } from 'react';
 
-var styles = {"gridcontainer":"_1wusp"};
+var styles = {"gridContainer":"_1bGdx"};
 
 var ExampleComponent = function ExampleComponent() {
   return createElement("div", {
-    className: styles.gridcontainer
-  }, createElement("div", {
+    className: styles.gridContainer
+  }, createElement("a", {
+    href: '/fasdfsd',
     className: 'item1'
-  }, "1"), createElement("div", {
+  }, "ds"), createElement("div", {
     className: 'item2'
   }, "2"), createElement("div", {
     className: 'item3'
@@ -15,13 +16,7 @@ var ExampleComponent = function ExampleComponent() {
     className: 'item4'
   }, "4"), createElement("div", {
     className: 'item5'
-  }, "5"), createElement("div", {
-    className: 'item6'
-  }, "6"), createElement("div", {
-    className: 'item7'
-  }, "7"), createElement("div", {
-    className: 'item8'
-  }, "8"));
+  }, "5"));
 };
 
 export default ExampleComponent;

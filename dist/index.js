@@ -1,13 +1,14 @@
 var React = require('react');
 
-var styles = {"gridcontainer":"_1wusp"};
+var styles = {"gridContainer":"_1bGdx"};
 
 var ExampleComponent = function ExampleComponent() {
   return React.createElement("div", {
-    className: styles.gridcontainer
-  }, React.createElement("div", {
+    className: styles.gridContainer
+  }, React.createElement("a", {
+    href: '/fasdfsd',
     className: 'item1'
-  }, "1"), React.createElement("div", {
+  }, "ds"), React.createElement("div", {
     className: 'item2'
   }, "2"), React.createElement("div", {
     className: 'item3'
@@ -15,13 +16,7 @@ var ExampleComponent = function ExampleComponent() {
     className: 'item4'
   }, "4"), React.createElement("div", {
     className: 'item5'
-  }, "5"), React.createElement("div", {
-    className: 'item6'
-  }, "6"), React.createElement("div", {
-    className: 'item7'
-  }, "7"), React.createElement("div", {
-    className: 'item8'
-  }, "8"));
+  }, "5"));
 };
 
 module.exports = ExampleComponent;

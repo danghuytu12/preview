@@ -1,4 +1,4 @@
-._1wusp {
+._1bGdx {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 10px;
@@ -6,7 +6,7 @@
   padding: 10px;
 }
 
-._1wusp > div {
+._1bGdx > div {
   background-color: #ffffff;
   text-align: center;
   padding: 20px 0;
